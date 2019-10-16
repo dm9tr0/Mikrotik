@@ -1,0 +1,25 @@
+:local hostScriptUrl "https://stopad.hook.sh/script/source?format=routeros&version=2.3.0&sources_urls=https%3A%2F%2Fhosts-file.net%2Fad_servers.txt&excluded_hosts=localhost";
+:local scriptName "stop_ad.script";
+:local backupFileName "before_stopad";
+:local logPrefix "[StopAD]";
+
+do {
+  /tool fetch check-certificate=no mode=https url=$hostScriptUrl dst-path=("./".$scriptName);
+  :delay 3s;
+  :if ([:len [/file find name=$scriptName]] > 0) do={
+    /system backup save name=$backupFileName;
+    :delay 1s;
+    :if ([:len [/file find name=($backupFileName.".backup")]] > 0) do={
+      /ip dns static remove [/ip dns static find comment=ADBlock];
+      /import file-name=$scriptName;
+      /file remove $scriptName;
+      :log info "$logPrefix AD block script imported, backup file (\"$backupFileName.backup\") created";
+    } else={
+      :log warning "$logPrefix Backup file not created, importing AD block script stopped";
+    }
+  } else={
+    :log warning "$logPrefix AD block script not downloaded, script stopped";
+  }
+} on-error={
+  :log warning "$logPrefix AD block script download FAILED";
+};
