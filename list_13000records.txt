@@ -4766,7 +4766,6 @@ add address=127.0.0.1 name=azvjudwr.info
 add address=127.0.0.1 name=badmactogoodmac.space
 add address=127.0.0.1 name=badmactogoodmac.tech
 add address=127.0.0.1 name=beloysoff.ru
-add address=127.0.0.1 name=best.aliexpress.com
 add address=127.0.0.1 name=bestreview.site
 add address=127.0.0.1 name=bgl1dr1-a-fixed.sancharnet.in
 add address=127.0.0.1 name=bgl1pp1-a-fixed.sancharnet.in
