@@ -16,7 +16,6 @@
 ## > localhost
 
 /ip dns static
-add address=192.168.88.1 name=router.lan comment=System
 add address=127.0.0.1 regexp=.*adskeeper.* comment=Regex
 add address=127.0.0.1 regexp=.*vkontakte.* comment=Regex
 add address=127.0.0.1 regexp=.*yandex.* comment=Regex
