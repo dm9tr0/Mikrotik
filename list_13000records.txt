@@ -1,41 +1,69 @@
 /ip dns static
 add address=192.168.88.1 name=router.lan comment=System
-add address=127.0.0.1 name=vk.com comment=For faster loading
-add address=127.0.0.1 name=userapi.com comment=For faster loading
-add address=127.0.0.1 name=ya.ru comment=For faster loading
-add address=127.0.0.1 name=yandex.ua comment=For faster loading
-add address=127.0.0.1 name=analytics.google.com comment=For faster loading
-add address=127.0.0.1 name=ajax.googleapis.com comment=For faster loading
-add address=127.0.0.1 name=rotor.overclockers.ru comment=For faster loading
-add address=127.0.0.1 name=a5.overclockers.ua comment=For faster loading
-add address=127.0.0.1 name=tns-counter.ru comment=For faster loading
-add address=127.0.0.1 name=pp.userapi.com comment=For faster loading
-add address=127.0.0.1 name=cdn.jsdelivr.net comment=For faster loading
-add address=127.0.0.1 name=js.mamydirect.com comment=For faster loading
-add address=127.0.0.1 name=www.google-analytics.com comment=For faster loading
-add address=127.0.0.1 name=top-fwz1.mail.ru comment=For faster loading
-add address=127.0.0.1 name=yandex.st comment=For faster loading
-add address=127.0.0.1 name=ads.maxlab.ru comment=For faster loading
-add address=127.0.0.1 name=cm.p.altergeo.ru comment=For faster loading
-add address=127.0.0.1 name=sync.1dmp.io comment=For faster loading
-add address=127.0.0.1 name=x01.aidata.io comment=For faster loading
-add address=127.0.0.1 name=files.goodadvert.ru comment=For faster loading
-add address=127.0.0.1 name=ali-crm.ru comment=For faster loading
-add address=127.0.0.1 name=s.luxupcdnc.com comment=For faster loading
-add address=127.0.0.1 name=luxupcdnc.com comment=For faster loading
-add address=127.0.0.1 name=logi162.xiti.com comment=For faster loading
-add address=127.0.0.1 name=x01.aidata.io comment=For faster loading
-add address=127.0.0.1 name=dmg.digitaltarget.ru comment=For faster loading
-add address=127.0.0.1 name=taphub.ru comment=For faster loading
-add address=127.0.0.1 name=luxcdn.com comment=For faster loading
-add address=127.0.0.1 name=rtb.com.ru comment=For faster loading
-add address=127.0.0.1 name=s.click.aliexpress.com comment=For faster loading
-add address=127.0.0.1 name=best.aliexpress.com comment=For faster loading
-add address=127.0.0.1 name=mrelko.com comment=For faster loading
-add address=127.0.0.1 name=torvind.com comment=For faster loading
-add address=127.0.0.1 name=jkhad.com comment=For faster loading
-add address=127.0.0.1 name=misdoers.com comment=For faster loading
-add address=127.0.0.1 name=cm.adskeeper.co.uk comment=For faster loading
+add address=127.0.0.1 regexp=.*adskeeper.* comment=Regex
+add address=127.0.0.1 regexp=.*vkontakte.* comment=Regex
+add address=127.0.0.1 regexp=.*yandex.* comment=Regex
+add address=127.0.0.1 regexp=top.list.ru.* comment=Regex
+add address=127.0.0.1 regexp=.*googleadservices.com.* comment=Regex
+add address=127.0.0.1 regexp=.*googlevideo.com.* comment=Regex
+add address=127.0.0.1 regexp=.*gpsonextra.net.* comment=Regex
+add address=127.0.0.1 regexp=.*oascentral.* comment=Regex
+add address=127.0.0.1 regexp=.*fastclick.net.* comment=Regex
+add address=127.0.0.1 regexp=.*extreme-dm.com.* comment=Regex
+add address=127.0.0.1 regexp=.*hitbox.com.* comment=Regex
+add address=127.0.0.1 regexp=.*yimg.com.* comment=Regex 
+add address=127.0.0.1 regexp=.*am15.net.* comment=Regex 
+add address=127.0.0.1 regexp=.*adserver.* comment=Regex 
+add address=127.0.0.1 regexp=.*wns.windows.com.* comment=Regex
+add address=127.0.0.1 regexp=.*llnw.net.* comment=Regex 
+add address=127.0.0.1 regexp=.*1drv.com.* comment=Regex 
+add address=127.0.0.1 regexp=.*jumptap.com.* comment=Regex
+add address=127.0.0.1 regexp=.*smaato.net.* comment=Regex
+add address=127.0.0.1 regexp=.*banner.* comment=Regex
+add address=127.0.0.1 regexp=.*affiliate.* comment=Regex
+add address=127.0.0.1 regexp=.*counter.* comment=Regex
+add address=127.0.0.1 regexp=.*analytics.* comment=Regex
+add address=127.0.0.1 regexp=.*esomniture.com.* comment=Regex
+add address=127.0.0.1 regexp=.*2mdn.net.* comment=Regex
+add address=127.0.0.1 regexp=.*doubleclick.* comment=Regex
+add address=127.0.0.1 regexp=.*oewabox.at.* comment=Regex
+add address=127.0.0.1 regexp=.*adtech.* comment=Regex
+add address=127.0.0.1 name=vk.com comment=ForFasterLoading
+add address=127.0.0.1 name=userapi.com comment=ForFasterLoading
+add address=127.0.0.1 name=ya.ru comment=ForFasterLoading
+add address=127.0.0.1 name=yandex.ua comment=ForFasterLoading
+add address=127.0.0.1 name=analytics.google.com comment=ForFasterLoading
+add address=127.0.0.1 name=ajax.googleapis.com comment=ForFasterLoading
+add address=127.0.0.1 name=rotor.overclockers.ru comment=ForFasterLoading
+add address=127.0.0.1 name=a5.overclockers.ua comment=ForFasterLoading
+add address=127.0.0.1 name=tns-counter.ru comment=ForFasterLoading
+add address=127.0.0.1 name=pp.userapi.com comment=ForFasterLoading
+add address=127.0.0.1 name=cdn.jsdelivr.net comment=ForFasterLoading
+add address=127.0.0.1 name=js.mamydirect.com comment=ForFasterLoading
+add address=127.0.0.1 name=www.google-analytics.com comment=ForFasterLoading
+add address=127.0.0.1 name=top-fwz1.mail.ru comment=ForFasterLoading
+add address=127.0.0.1 name=yandex.st comment=ForFasterLoading
+add address=127.0.0.1 name=ads.maxlab.ru comment=ForFasterLoading
+add address=127.0.0.1 name=cm.p.altergeo.ru comment=ForFasterLoading
+add address=127.0.0.1 name=sync.1dmp.io comment=ForFasterLoading
+add address=127.0.0.1 name=x01.aidata.io comment=ForFasterLoading
+add address=127.0.0.1 name=files.goodadvert.ru comment=ForFasterLoading
+add address=127.0.0.1 name=ali-crm.ru comment=ForFasterLoading
+add address=127.0.0.1 name=s.luxupcdnc.com comment=ForFasterLoading
+add address=127.0.0.1 name=luxupcdnc.com comment=ForFasterLoading
+add address=127.0.0.1 name=logi162.xiti.com comment=ForFasterLoading
+add address=127.0.0.1 name=x01.aidata.io comment=ForFasterLoading
+add address=127.0.0.1 name=dmg.digitaltarget.ru comment=ForFasterLoading
+add address=127.0.0.1 name=taphub.ru comment=ForFasterLoading
+add address=127.0.0.1 name=luxcdn.com comment=ForFasterLoading
+add address=127.0.0.1 name=rtb.com.ru comment=ForFasterLoading
+add address=127.0.0.1 name=s.click.aliexpress.com comment=ForFasterLoading
+add address=127.0.0.1 name=best.aliexpress.com comment=ForFasterLoading
+add address=127.0.0.1 name=mrelko.com comment=ForFasterLoading
+add address=127.0.0.1 name=torvind.com comment=ForFasterLoading
+add address=127.0.0.1 name=jkhad.com comment=ForFasterLoading
+add address=127.0.0.1 name=misdoers.com comment=ForFasterLoading
+add address=127.0.0.1 name=cm.adskeeper.co.uk comment=ForFasterLoading
 add address=127.0.0.1 name=ad.youtube.com
 add address=127.0.0.1 name=ads.youtube.com
 add address=127.0.0.1 name=akamaiedge.net
