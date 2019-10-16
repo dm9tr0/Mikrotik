@@ -1,4 +1,4 @@
-:local hostScriptUrl "https://stopad.hook.sh/script/source?format=routeros&version=2.3.0&sources_urls=https%3A%2F%2Fhosts-file.net%2Fad_servers.txt&excluded_hosts=localhost";
+:local hostScriptUrl "https://raw.githubusercontent.com/13Dima13/Mikrotik/master/list_13000records.txt";
 :local scriptName "stop_ad.script";
 :local backupFileName "before_stopad";
 :local logPrefix "[StopAD]";
