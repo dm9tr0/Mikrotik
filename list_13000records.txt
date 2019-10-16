@@ -16,34 +16,7 @@
 ## > localhost
 
 /ip dns static
-add address=127.0.0.1 regexp=.*adskeeper.* comment=Regex
-add address=127.0.0.1 regexp=.*vkontakte.* comment=Regex
-add address=127.0.0.1 regexp=.*yandex.* comment=Regex
-add address=127.0.0.1 regexp=top.list.ru.* comment=Regex
-add address=127.0.0.1 regexp=.*googleadservices.com.* comment=Regex
-add address=127.0.0.1 regexp=.*googlevideo.com.* comment=Regex
-add address=127.0.0.1 regexp=.*gpsonextra.net.* comment=Regex
-add address=127.0.0.1 regexp=.*oascentral.* comment=Regex
-add address=127.0.0.1 regexp=.*fastclick.net.* comment=Regex
-add address=127.0.0.1 regexp=.*extreme-dm.com.* comment=Regex
-add address=127.0.0.1 regexp=.*hitbox.com.* comment=Regex
-add address=127.0.0.1 regexp=.*yimg.com.* comment=Regex 
-add address=127.0.0.1 regexp=.*am15.net.* comment=Regex 
-add address=127.0.0.1 regexp=.*adserver.* comment=Regex 
-add address=127.0.0.1 regexp=.*wns.windows.com.* comment=Regex
-add address=127.0.0.1 regexp=.*llnw.net.* comment=Regex 
-add address=127.0.0.1 regexp=.*1drv.com.* comment=Regex 
-add address=127.0.0.1 regexp=.*jumptap.com.* comment=Regex
-add address=127.0.0.1 regexp=.*smaato.net.* comment=Regex
-add address=127.0.0.1 regexp=.*banner.* comment=Regex
-add address=127.0.0.1 regexp=.*affiliate.* comment=Regex
-add address=127.0.0.1 regexp=.*counter.* comment=Regex
-add address=127.0.0.1 regexp=.*analytics.* comment=Regex
-add address=127.0.0.1 regexp=.*esomniture.com.* comment=Regex
-add address=127.0.0.1 regexp=.*2mdn.net.* comment=Regex
-add address=127.0.0.1 regexp=.*doubleclick.* comment=Regex
-add address=127.0.0.1 regexp=.*oewabox.at.* comment=Regex
-add address=127.0.0.1 regexp=.*adtech.* comment=Regex
+add address=192.168.88.1 name=router.lan comment=System
 add address=127.0.0.1 name=vk.com comment=For faster loading
 add address=127.0.0.1 name=userapi.com comment=For faster loading
 add address=127.0.0.1 name=ya.ru comment=For faster loading
