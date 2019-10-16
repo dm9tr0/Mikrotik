@@ -16,6 +16,7 @@
 ## > localhost
 
 /ip dns static
+add address=192.168.88.1 name=router.lan comment=System
 add address=127.0.0.1 regexp=.*adskeeper.* comment=Regex
 add address=127.0.0.1 regexp=.*vkontakte.* comment=Regex
 add address=127.0.0.1 regexp=.*yandex.* comment=Regex
@@ -68,7 +69,6 @@ add address=127.0.0.1 name=ali-crm.ru comment=ForFasterLoading
 add address=127.0.0.1 name=s.luxupcdnc.com comment=ForFasterLoading
 add address=127.0.0.1 name=luxupcdnc.com comment=ForFasterLoading
 add address=127.0.0.1 name=logi162.xiti.com comment=ForFasterLoading
-add address=127.0.0.1 name=x01.aidata.io comment=ForFasterLoading
 add address=127.0.0.1 name=dmg.digitaltarget.ru comment=ForFasterLoading
 add address=127.0.0.1 name=taphub.ru comment=ForFasterLoading
 add address=127.0.0.1 name=luxcdn.com comment=ForFasterLoading
